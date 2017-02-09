@@ -1,0 +1,2 @@
+all:
+	g++ -std=c++11 -o game -framework sdl2 -framework sdl2_image -framework sdl2_ttf -framework sdl2_mixer core/audio.cpp core/game.cpp core/graphics.cpp core/image.cpp core/input.cpp core/music.cpp core/outlinefont.cpp core/rasterfont.cpp core/sound.cpp main.cpp map.cpp mapdemo.cpp 
